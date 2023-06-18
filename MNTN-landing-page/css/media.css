@@ -1,0 +1,11 @@
+@media (max-width:800px) {
+
+
+    .nav, .account {
+        display: none;
+    }
+
+    .nav-btn {
+        display: block;
+    }
+}

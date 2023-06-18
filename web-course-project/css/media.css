@@ -1,0 +1,26 @@
+@media (max-width: 500px) {
+    .title {
+        font-size: 35px;
+    }
+
+    .year {
+        display: none;
+    }
+
+    .countdown {
+        align-items: center;
+    }
+
+    .time {
+        margin: 10px;
+    }
+
+    .time h2 {
+        font-size: 32px;
+        margin: 0;
+    }
+
+    .time small {
+        font-size: 16px;
+    }
+}

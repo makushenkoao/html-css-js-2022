@@ -1,0 +1,18 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    height: 100vh;
+    color: #fff;
+    background: #000;
+}
+
+a {
+    color: white;
+}
+
+.container {
+    padding: 0 312px;
+    margin: 0 auto;
+    max-width: 1920px;
+}

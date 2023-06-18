@@ -1,0 +1,299 @@
+
+/* !!!HEADER!!! */
+
+.header {
+    margin-bottom: 200px;
+    background-image: url(./../img/header/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.nav {
+    margin-bottom: 198px;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-list {
+    display: flex;
+    column-gap: 56px;
+}
+
+.header-list a {
+    position: relative;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.header-list a:after {
+    position: absolute;
+    content: "";
+    display: block;
+    right: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.5s;
+}
+
+.header-list a:hover::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.5s;
+}
+
+.header-btn {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+    border-radius: 50px;
+}
+
+.header-btn:hover {
+    background: linear-gradient(94.26deg, rgb(200, 154, 252, 0.6) 9.51%, rgb(124, 106, 250, 0.6) 90.23%);
+}
+
+.header-content {
+    margin-bottom: 218px;
+}
+.header-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 140%;
+}
+.main-screen {
+    background-color: #121212;
+    min-height: 130px;
+}
+.main-screen-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    width: 169px;
+    height: 44px;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    border-radius: 50px;
+}
+
+.main-screen-wrapper {
+    padding: 43px 0;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-screen-list-block-content {
+    display: flex;
+}
+.main-screen-list-block-subtitle {
+    padding-right: 30px;
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.4;
+}
+.main-screen-list-block-number {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+.main-screen-range {
+    max-width: 714px;
+}
+.main-screen-range-content {
+    display: flex;
+    column-gap: 30px;
+}
+.main-screen-range-line {
+    margin: 8px 0 5px 0;
+    position: relative;
+    width: 714px;
+    height: 6px;
+    background: #fff;
+}
+.main-screen-range-line::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+    width: 440px;
+    height: 6px;
+}
+
+.main-screen-range-line-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* !!!ABOUT!!! */
+
+.about {
+    margin-bottom: 200px;
+}
+
+.about-content {
+    display: flex;
+    column-gap: 134px;
+}
+
+.about-content-info {
+    padding-top: 50px;
+}
+
+.about-content-info-title {
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.about-content-info-text {
+    width: 636px;
+    height: 156px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/* !!!START!!! */
+
+.start {
+    margin-bottom: 200px;
+}
+
+.start-content-block-title {
+    align-items: center;
+    margin-bottom: 49px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.start-content-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.start-content-text {
+    margin-bottom: 80px;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.5;
+    width: 411px;
+}
+.start-infographic {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.start-infographic-blocks-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 140%;
+}
+
+.first, .second, .third, .fourth {
+    width: 324px;
+    background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
+.first {
+    height: 80px;
+    margin-bottom: 35px;
+}
+
+.second {
+    height: 60px;
+    margin-bottom: 45px;
+}
+
+.third {
+    height: 30px;
+    margin-bottom: 60px;
+}
+
+.fourth {
+    height: 10px;
+    margin-bottom: 70px;
+}
+
+.start-infographic-blocks-text {
+    width: 306px;
+    font-size: 14px;
+    line-height: 160%;
+    opacity: 0.5;
+}
+
+.first-title {
+    padding-bottom: 20px;
+}
+
+.second-title {
+    padding-bottom: 30px;
+}
+
+.third-title {
+    padding-bottom: 45px;
+}
+
+.fourth-title {
+    padding-bottom: 55px;
+}
+
+/* !!!ADVANTAGE!!! */
+
+.advantages {
+}
+.advantages-content {
+}
+.advantages-content-title {
+    margin-bottom: 120px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+}
+.advantages-info {
+    display: flex;
+    column-gap: 18px;
+}
+.advantages-info-blocks {
+    text-align: center;
+    text-align: center;
+}
+
+.advantages-info-img {
+    margin-bottom: 60px;
+}
+
+.advantages-info-title {
+    width: 416px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.advantages-info-text{
+    width: 220px;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.8;
+}

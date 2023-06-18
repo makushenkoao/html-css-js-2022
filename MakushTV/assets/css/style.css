@@ -1,0 +1,385 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 1.2em;
+  background-color: #fff;
+  color: #555;
+}
+p {
+  padding: 0px 0px 20px 0px;
+  line-height: 1.7em;
+}
+input[type="text"],
+input[type="password"],
+input[type="search"],
+input[type="email"] {
+  color: #5d5d5d;
+  padding: 8px;
+  width: 60%;
+  border-radius: 8px;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+  border: solid 1px #f2f2f2;
+}
+h1,
+h2 {
+  font: normal 170% "Anek Latin", sans-serif;
+  margin: 0px 0px 5px 0px;
+  padding: 15px 0px 5px 0px;
+  color: #000;
+}
+h2 {
+  font-size: 140%;
+}
+a,
+a:hover {
+  outline: none;
+  color: black;
+  font: normal 80% "Anek Latin", sans-serif;
+}
+ul {
+  margin: 2px 0px 22px 17px;
+}
+ul li {
+  margin: 0px 0px 6px 0px;
+  padding: 0px 0px 4px 5px;
+  line-height: 1.5em;
+}
+.header {
+  background-color: #d81f26;
+  height: 177px;
+  font-size: 0.8em;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+  border: solid 1px #8b0000;
+}
+.main,
+.logo,
+.menubar,
+.site_content,
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  width: 880px;
+  padding-bottom: 40px;
+}
+.logo h1,
+.logo h2 {
+  font: normal 300% "Anek Latin", sans-serif;
+  margin: 0px 0px 0px 9px;
+  padding: 22px 0px 0px 0px;
+}
+a {
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  color: #fff;
+}
+.logo_text h2 {
+  font-size: 0.9em;
+  padding: 4px 0px 0px 0px;
+  color: #fff;
+}
+.menubar {
+  width: 900px;
+  height: 46px;
+}
+ul.menu {
+  float: right;
+}
+ul.menu li {
+  float: left;
+  padding: 0px 0px 0px 9px;
+  list-style: none;
+  margin: 1px 2px 0px 0px;
+}
+ul.menu li a {
+  font: normal 100% "Anek Latin", sans-serif;
+  display: block;
+  height: 20px;
+  padding: 6px 13px 5px 18px;
+  color: #fff;
+  text-decoration: none;
+}
+ul.menu li.selected a {
+  color: black;
+  font-weight: 700;
+}
+ul.menu li a:hover {
+  color: black;
+}
+hr {
+  border: solid 1px #f3f3f3;
+}
+.site_content {
+  width: 880px;
+  overflow: hidden;
+  margin: 20px auto 0px auto;
+  background-color: white;
+}
+.sidebar_container {
+  float: right;
+  width: 224px;
+}
+.sidebar {
+  float: right;
+  width: 222px;
+  padding: 5%;
+  margin: 0px 0px 16px 0px;
+  border: solid 1px #8b0000;
+  border-radius: 8px;
+  /* background-color: #D81F26; */
+}
+/* .sidebar h2 {
+    color: black;
+    font: normal 100% 'Anek Latin', sans-serif;
+    margin-bottom: 9px; 
+} */
+.btn {
+  padding: 8px;
+  border-radius: 8px;
+}
+/* .sidebar h2 {
+    color: #136cb2;
+} */
+
+.lables_paasreg_text a {
+  font-size: 0.7em;
+  margin-top: 3%;
+  margin-left: 2%;
+  color: #000;
+}
+.sidebar ul {
+  margin: 0px;
+}
+.sidebar ul li {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+}
+.sidebar .rating_sidebar {
+  float: right;
+}
+.sidebar a {
+  color: #000;
+}
+.content {
+  text-align: left;
+  width: 620px;
+  padding: 0px 0px 0px 5px;
+  float: left;
+}
+.content a {
+  text-decoration: none;
+}
+
+.films_block {
+  margin-bottom: 5%;
+}
+.films_block img {
+  border-radius: 5px;
+  border: solid 5px #dad7d5;
+  width: 22%;
+}
+.posts .posts_content {
+  font-size: 0.8em;
+  display: block;
+}
+.posts_content a {
+  color: black;
+}
+.posts a {
+  color: black;
+}
+.info_film_page {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.info_film_page .label {
+  font-size: 1.2em;
+}
+.info_film_page .value {
+  font-size: 1em;
+  margin-right: 3%;
+}
+.description_film {
+  margin-bottom: 15%;
+}
+.description_film img {
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  border: solid 1px #dad7d5;
+}
+.reviews {
+  margin-bottom: 4%;
+  font-size: 0.9em;
+}
+
+.reviews .review_name {
+  background-color: #d81f26;
+  color: white;
+  padding: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.send .review_email {
+  background-color: #d81f26;
+  color: white;
+  padding: 1%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.reviews .review_text {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.review.form {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+.review.send .review.form {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+
+.send {
+  margin-bottom: 4%;
+}
+.send input[type="text"],
+textarea {
+  border: solid 1px #c3c3c3;
+  border-color: #8b0000;
+  margin-bottom: 2%;
+}
+
+.contact input[type="text"],
+textarea,
+input[type="email"] {
+  border: solid 1px #c3c3c3;
+  border-color: #8b0000;
+  margin-bottom: 2%;
+}
+
+.contact textarea {
+  width: 576px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.contact input[type="submit"] {
+  background-color: #d81f26;
+  color: white;
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.send input[type="text"],
+input[type="email"] {
+  width: 90%;
+}
+
+.contact input[type="text"] {
+  width: 90%;
+}
+
+.send textarea {
+  width: 620px;
+  height: 200px;
+  border-radius: 8px;
+}
+.send input[type="submit"] {
+  background-color: #d81f26;
+  color: white;
+  padding: 3%;
+  border-radius: 5px;
+}
+.info_film {
+  margin-bottom: 5%;
+  padding: 5%;
+  height: 270px;
+  background-color: #f9f9f9;
+}
+.info_film img {
+  float: left;
+  margin-right: 2%;
+  border-radius: 5px;
+  border: solid 5px #8b0000;
+}
+.button {
+  background-color: #d81f26;
+  padding: 2%;
+  color: white;
+  border-radius: 5px;
+  float: right;
+  margin-top: 5%;
+  clear: both;
+  font-size: 0.8em;
+}
+button a {
+  color: white;
+}
+
+table {
+  width: 100%;
+}
+table {
+  border: solid 1px #8b0000;
+}
+td {
+  padding: 2%;
+  border: solid 1px #8b0000;
+}
+td img {
+  width: 60px;
+  vertical-align: middle;
+}
+.center {
+  text-align: center;
+}
+.rating a {
+  color: black;
+}
+
+.footer a {
+  color: white;
+  font: normal 100% "Anek Latin", sans-serif;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100%;
+  height: 100%;
+  padding: 28px 0px 5px 0px;
+  text-align: center;
+  background-color: #d81f26;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 900px;
+}
+
+.footer a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.footer p {
+  padding: 0px 0px 10px 0px;
+  color: white;
+}
+.bold {
+  font-weight: 700;
+}
